@@ -7,7 +7,7 @@ const mongoClient = mongodb.MongoClient;
 const dotenv = require("dotenv").config();
 const URL = process.env.db;
 
-const SECRET = "1234abcd5678efgh";
+
 const jwt = require("jsonwebtoken");
 app.use(express.json());
 app.use(
