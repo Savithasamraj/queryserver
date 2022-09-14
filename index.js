@@ -4,7 +4,7 @@ const cors = require("cors");
 const bcryptjs = require("bcryptjs");
 const mongodb = require("mongodb");
 const mongoClient = mongodb.MongoClient;
-const dotenv = require("dotenv").config();
+const dotenv = require("dotenv")
 const URL = process.env.db;
 
 
